@@ -94,7 +94,7 @@ bool check(int r, int c)
 }
 void solve(int c)
 {
-    //debug(c, row[row_pos]);
+    //debug(c, row[colomn_pos]);
     if(c == 8 && row[colomn_pos] == row_pos)
     {
         printf("%2d      %d", ++LineNo, row[0] + 1);
